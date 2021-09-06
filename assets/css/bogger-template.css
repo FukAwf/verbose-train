@@ -4,14 +4,24 @@
 @import url('https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap'); /* font-family: 'ZCOOL KuaiLe', cursive; */
 @import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap'); /* font-family: 'Cookie', cursive; */
 
+/* Notes 
+@import url('../css/fonts.css');
+
+@font-face {
+    font-family: Abril;
+    src: url('../fonts/Abril-Fatface.ttl');
+} 
+*/
+
 /* --------------- ROOT ---------------- */
 :root {
     --color-white: rgb(255, 255, 255);
     --color-black: rgb(0, 0, 0);
     --color-red: rgb(255, 45, 19);
-    --color-yellow: rgb(248, 252, 5);
+    --color-ole-yeller: rgb(248, 252, 5);
     --color-green: rgb(84, 253, 5);
     --color-blue: rgb(4, 94, 248);
+    --color-grey: rgb(77, 77, 77);
 }
 
 /* --------------- GOOGLE CLASS ---------------- */
@@ -28,10 +38,16 @@ a {
     flex-wrap: wrap;
 }
 
+.bg {
+    background-image: url('../images/bg.gif');
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
 h1 {
-    background: var(--color-white);
-    color: var(--color-green);
-    font-size: 5rem;
+    color: var(--color-ole-yeller);
+    font-size: 7rem;
     padding: 0;
     margin: 0;
     text-align: center;
@@ -55,13 +71,14 @@ ul {
     margin: 0;
     overflow-x: hidden;
     box-sizing: border-box;
-    font-family: 'Abril Fatface', cursive;
+    color: var(--color-black);
 }
 
 /* --------------- NAVBAR ---------------- */
 
 nav {
-    background: var(--color-white);
+    background-image: url('../images/bg.gif');
+    background-size: cover;
     padding: 0 2rem;
     height: 0;
     min-height: 10vh;
@@ -80,11 +97,18 @@ nav .nav-items {
 nav .nav-items .nav-link {
     padding: 1.6rem 1rem;
     font-size: 1.1rem;
+    letter-spacing: 2px;
     position: relative;
+    font-family: 'ZCOOL KuaiLe', cursive;
 }
 
 nav .nav-brand a {
-    font-size: 3.6rem;
+    font-size: 4.2rem;
+}
+
+nav .social {
+    padding: 1.4rem;
+    
 }
 
 
