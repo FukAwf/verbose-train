@@ -1,0 +1,100 @@
+/* --------------- IMPORT ---------------- */
+@charset 'UTF-8';
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap'); /* font-family: 'Abril Fatface', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap'); /* font-family: 'ZCOOL KuaiLe', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap'); /* font-family: 'Cookie', cursive; */
+
+/* --------------- ROOT ---------------- */
+:root {
+    --color-white: rgb(255, 255, 255);
+    --color-black: rgb(0, 0, 0);
+    --color-red: rgb(255, 45, 19);
+    --color-yellow: rgb(248, 252, 5);
+    --color-green: rgb(84, 253, 5);
+    --color-blue: rgb(4, 94, 248);
+}
+
+/* --------------- GOOGLE CLASS ---------------- */
+
+a {
+    text-decoration: none;
+    color: var(--color-red);
+    text-transform: uppercase;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+h1 {
+    background: var(--color-white);
+    color: var(--color-green);
+    font-size: 5rem;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    min-height: 90vh;
+    overflow: hidden;
+    text-transform: uppercase;
+}
+
+.txt-blue {
+    color: var(--color-blue);
+    text-transform: capitalize;
+    font-family: 'Cookie', cursive;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* --------------- GLOBAL CLASS ---------------- */
+*, html, body {
+    margin: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    font-family: 'Abril Fatface', cursive;
+}
+
+/* --------------- NAVBAR ---------------- */
+
+nav {
+    background: var(--color-white);
+    padding: 0 2rem;
+    height: 0;
+    min-height: 10vh;
+    overflow: hidden;
+}
+nav .nav-menu {
+    justify-content: space-between;
+}
+
+nav .nav-items {
+    display: flex;
+    margin: 0;
+    
+}
+
+nav .nav-items .nav-link {
+    padding: 1.6rem 1rem;
+    font-size: 1.1rem;
+    position: relative;
+}
+
+nav .nav-brand a {
+    font-size: 3.6rem;
+}
+
+
+
+/* --------------- NAVIGATION ---------------- */
+
+/* --------------- NAVIGATION ---------------- */
+
+/* --------------- NAVIGATION ---------------- */
+
+/* --------------- NAVIGATION ---------------- */
+
+
